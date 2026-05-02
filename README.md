@@ -28,6 +28,10 @@ Example:
 python3 x265.py --crf 28 --preset medium --aq-mode 3 --aq-strength 1.0 --nice 15 /path/to/input.mkv /path/to/output_dir
 ```
 
+## Screenshot
+
+![x265 Batch Encoding Screenshot](Screenshot at 2026-05-02 15-47-21.png)
+
 ## Options
 
 - `--nice` - Process nice value for ffmpeg/x265. Higher values reduce scheduler priority.
