@@ -4,7 +4,7 @@ This repository contains a Python wrapper script for batch encoding video files 
 
 ## Files
 
-- `x265-New-argparse.py` - batch encoding script with scaling, CRF, preset, nice priority, and adaptive quantization options.
+- `x265.py` - batch encoding script with scaling, CRF, preset, nice priority, and adaptive quantization options.
 
 ## Requirements
 
@@ -19,13 +19,13 @@ This repository contains a Python wrapper script for batch encoding video files 
 Basic usage:
 
 ```bash
-python3 x265-New-argparse.py /path/to/input.mp4 /path/to/output_dir
+python3 x265.py /path/to/input.mp4 /path/to/output_dir
 ```
 
 Example:
 
 ```bash
-python3 x265-New-argparse.py --crf 28 --preset medium --aq-mode 3 --aq-strength 1.0 --nice 15 /path/to/input.mkv /path/to/output_dir
+python3 x265.py --crf 28 --preset medium --aq-mode 3 --aq-strength 1.0 --nice 15 /path/to/input.mkv /path/to/output_dir
 ```
 
 ## Options
