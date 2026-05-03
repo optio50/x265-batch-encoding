@@ -96,9 +96,9 @@ def parse_arguments():
         description="Encode video using x265 with optional process priority tuning and scaling.",
         formatter_class=ArgumentDefaultsAndRawHelpFormatter,
         epilog="""Examples:
-  x265-New-argparse.py /path/to/input.mp4 /path/to/output_dir
-  x265-New-argparse.py /path/to/source_dir /path/to/dest_dir --scale 720 --crf 28 --preset medium --nice 15
-  x265-New-argparse.py /path/to/input.mkv /path/to/output --nice 19
+  x265.py /path/to/input.mp4 /path/to/output_dir
+  x265.py /path/to/source_dir /path/to/dest_dir --scale 720 --crf 28 --preset medium --nice 15
+  x265.py /path/to/input.mkv /path/to/output --nice 19
 """
     )
     parser.add_argument('source', help='Single video file or directory containing video files.')
